@@ -1,0 +1,10 @@
+.Logo {
+}
+
+.App-logo {
+  width: 15%;
+  pointer-events: none;
+  position: absolute;
+  left: 950px;
+  top: -600px;
+}

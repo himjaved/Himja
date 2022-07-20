@@ -1,0 +1,104 @@
+.Map {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -120px;
+  left: 200px;
+  filter: drop-shadow(5px 5px 5px rgb(58, 57, 57));
+}
+
+.map-img {
+  width: 820px;
+  height: auto;
+  display: flex;
+  padding: 0;
+  text-align: center;
+}
+.melbourne-text {
+  position: absolute;
+  top: 490px;
+  left: 360px;
+}
+.melbourne-img {
+  width: 60%;
+}
+.sydney-text {
+  position: absolute;
+  top: 450px;
+  left: 580px;
+}
+.sydney-img {
+  width: 45%;
+}
+.perth-text {
+  position: absolute;
+  top: 350px;
+  left: -50px;
+}
+.perth-img {
+  width: 45%;
+}
+.box {
+  font-size: 50px;
+  text-align: center;
+  fill: #fff;
+}
+.data-box {
+  width: 200px;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  transition: all 200ms ease-in-out;
+  filter: drop-shadow(5px 5px 5px rgb(58, 57, 57));
+}
+.data-box:hover {
+  width: 250px;
+  opacity: 0.8;
+}
+.title {
+  width: 300px;
+  font-size: 10px;
+}
+.title-text {
+  font-size: 30px;
+  fill: #fff;
+  text-align: center;
+}
+.arrow-img {
+  width: 600px;
+  position: absolute;
+  top: 180px;
+  left: 100px;
+}
+.circle {
+  color: #9c4c78;
+  position: absolute;
+  top: 504px;
+  left: 665px;
+}
+.circle2 {
+  color: #9c4c78;
+  position: absolute;
+  top: 563px;
+  left: 573px;
+}
+.circle3 {
+  color: #9c4c78;
+  position: absolute;
+  top: 451px;
+  left: 143px;
+}
+
+.my-line {
+  animation: dash 1s linear alternate infinite;
+}
+
+/* does not work in IE, need JS to animate there */
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1440;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
