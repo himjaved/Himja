@@ -8,7 +8,6 @@ body {
   text-align: center;
   background-color: #4d90ac;
   min-width: 300px;
-
   overflow-x: auto;
 }
 body::-webkit-scrollbar {

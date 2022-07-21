@@ -5,7 +5,6 @@ const RealTimeData = (props) => (
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 547.81 94.97"
-    className={props.class1}
     {...props}
   >
     <defs>
@@ -54,10 +53,6 @@ const RealTimeData = (props) => (
             fill: "url(#linear-gradient)",
           }}
         />
-
-        <text x="250" y="45" className={props.class2}>
-          {props.content}
-        </text>
       </g>
     </g>
   </svg>
