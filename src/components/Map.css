@@ -4,7 +4,7 @@
   position: absolute;
   top: -420px;
   left: -10px;
-  filter: drop-shadow(5px 5px 5px rgb(58, 57, 57));
+  filter: drop-shadow(10px 10px 10px rgb(58, 57, 57));
   height: fit-content;
 }
 
@@ -12,7 +12,7 @@
   width: 1020px;
   height: auto;
   cursor: pointer;
-  border: 1px red solid;
+
   padding: -50px;
 }
 

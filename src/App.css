@@ -11,3 +11,12 @@
   top: 0;
   left: 0;
 }
+.heading {
+  text-align: left;
+  margin-top: 40px;
+  color: #e4e2dc;
+  font-size: 36px;
+  text-decoration: underline;
+  margin-left: 10px;
+  text-shadow: 2px 2px 2px black;
+}
