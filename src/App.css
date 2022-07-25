@@ -20,3 +20,9 @@
   margin-left: 10px;
   text-shadow: 2px 2px 2px black;
 }
+@media (max-width: 1180px) {
+  .heading {
+    font-size: 26px;
+    margin-left: 20px;
+  }
+}

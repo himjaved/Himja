@@ -5,3 +5,9 @@
   left: 950px;
   top: -600px;
 }
+@media (max-width: 900px) {
+  .App-logo {
+    width: 20%;
+    left: 800px;
+  }
+}
