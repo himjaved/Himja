@@ -41,7 +41,6 @@
     stroke-dashoffset: 1000;
   }
 }
-
 @media (max-width: 900px) {
   .map-img {
     width: 890px;

@@ -12,17 +12,8 @@
   left: 0;
 }
 .heading {
-  text-align: left;
-  margin-top: 30px;
-  color: #e4e2dc;
-  font-size: 36px;
-  text-decoration: underline;
-  margin-left: 10px;
-  text-shadow: 2px 2px 2px black;
-}
-@media (max-width: 1180px) {
-  .heading {
-    font-size: 26px;
-    margin-left: 20px;
-  }
+  width: 35%;
+  position: absolute;
+  left: 100px;
+  top: -170px;
 }
