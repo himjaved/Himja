@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./logo.css";
+import "./Logo.css";
 
 const Logo = (props) => (
   <svg
