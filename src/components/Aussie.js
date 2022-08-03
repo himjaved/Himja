@@ -127,6 +127,7 @@ const AussieMap = (props) => (
       style={{
         fill: "url(#radial-gradient)",
       }}
+      className="city-circle"
     />
     <circle
       cx={399.99}
@@ -135,6 +136,7 @@ const AussieMap = (props) => (
       style={{
         fill: "url(#radial-gradient-2)",
       }}
+      className="city-circle"
     />
     <circle
       cx={455.48}
@@ -143,6 +145,7 @@ const AussieMap = (props) => (
       style={{
         fill: "url(#radial-gradient-3)",
       }}
+      className="city-circle"
     />
     <path
       className="cls-12"

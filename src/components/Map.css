@@ -2,13 +2,13 @@
   width: 100%;
   max-height: 100%;
   position: absolute;
-  top: -420px;
+  top: -280px;
   left: -10px;
   filter: drop-shadow(10px 10px 10px rgb(58, 57, 57));
 }
 
 .map-img {
-  width: 1020px;
+  width: 900px;
   height: auto;
   cursor: pointer;
 
@@ -41,15 +41,30 @@
     stroke-dashoffset: 1000;
   }
 }
+
+.city-circle {
+  stroke-width: 10px;
+}
+@media (max-width: 1000px) {
+  .map-img {
+    width: 750px;
+  }
+
+  .Map {
+    position: absolute;
+    top: -250px;
+    left: -20px;
+  }
+}
+
 @media (max-width: 900px) {
   .map-img {
-    width: 890px;
+    width: 560px;
   }
+
   .Map {
-    width: 100%;
-    max-height: 100%;
     position: absolute;
-    top: -370px;
-    left: 80px;
+    top: -170px;
+    left: -20px;
   }
 }
