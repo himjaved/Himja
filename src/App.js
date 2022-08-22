@@ -10,7 +10,7 @@ function App() {
           <h1 className="title">Dashboard</h1>
         </div>
         <Logo />
-        <Map />
+       <Map />
       </div>
     </div>
   );
